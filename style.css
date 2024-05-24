@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: #decbb7;
+    font-family: 'montserrat';
+}
+
+h1 {
+    color: #433633;
+    font-size: 2.5rem;
+}
+
+.win-msg {
+    margin-top: 0.5rem;
+}
+
+.hide {
+    display: none;
+}
+
+#new-game {
+    padding: 0.5rem 1rem;
+    background-color: #433643;
+    border: none;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+#msg {
+    color: #8f857d;
+    margin-bottom: 0.5rem;
+}
+
+.contrainer {
+    margin: 0.5rem auto;
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.game-box {
+    width: 18rem;
+    height: 18rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;   
+}
+
+.box {
+    width: 5rem;
+    height: 5rem;
+    color: #433633;
+    background-color: #8f857d;
+    border: none;
+    border-radius: 0.75rem;
+    font-size: 2.5rem;
+}
+
+#reset {
+    padding: 0.5rem 1rem;
+    background-color: #433643;
+    border: none;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-size: 1.2rem;
+}
